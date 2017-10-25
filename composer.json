@@ -1,0 +1,21 @@
+{
+  "name": "ganryuzt/search-engine-aggregator",
+  "description": "Library used to aggregate search engine query results.",
+  "type": "library",
+  "version": "0.0.1",
+  "require": {
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "*"    
+  },
+  "authors": [
+    {
+      "name": "Zurich Ferdian",
+      "email": "zurich.ferdian@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ganryuzt\\SearchEngineAggregator\\": "src/"
+    }
+  }
+}
